@@ -1,0 +1,43 @@
+============================================================
+NPU Oscillatory Reservoir Computing Benchmark
+Date: 2026-06-01 15:47:56
+N_NPU=8, DT=0.02, N_SEEDS_MAIN=10
+============================================================
+=== Fig 1: Single-NPU step response ===
+Saved fig01_single_npu_response.{png,pdf}
+=== Fig 2: Multi-NPU synchronization ===
+Saved fig02_multi_npu_sync.{png,pdf}
+=== Fig 3: Performance bars (Task A & B) ===
+Running Task A with 10 seeds...
+Task A accuracy: NPU=0.587+-0.088, Raw=0.498+-0.083, ESN=0.540+-0.172
+Running Task B with 10 seeds...
+Task B NMSE: NPU=21.125+-14.601, Raw=1.025+-0.014, ESN=11.880+-17.286
+Saved fig03_performance_bars.{png,pdf}
+=== Fig 4: Robustness curves ===
+  Noise sigma=0.010
+  Noise sigma=0.042
+  Noise sigma=0.073
+  Noise sigma=0.105
+  Noise sigma=0.137
+  Noise sigma=0.168
+  Noise sigma=0.200
+  Drift fraction=-0.15
+  Drift fraction=-0.10
+  Drift fraction=-0.05
+  Drift fraction=0.00
+  Drift fraction=0.05
+  Drift fraction=0.10
+  Drift fraction=0.15
+  Coupling g=0.000
+  Coupling g=0.020
+  Coupling g=0.040
+  Coupling g=0.060
+  Coupling g=0.080
+  Coupling g=0.100
+Saved fig04_robustness_curves.{png,pdf}
+=== Fig 5: Reservoir PCA / t-SNE projection ===
+Saved fig05_reservoir_projection.{png,pdf}
+=== Fig S1: Arnold tongue ===
+Saved figS1_arnold_tongue.{png,pdf}
+All experiments finished in 930.7 s
+Figures saved to ./figures/

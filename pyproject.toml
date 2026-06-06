@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corc"
+version = "2.0.0"
+description = "Calcium-inspired Oscillatory Reservoir Computing"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "CORC Authors"}
+]
+keywords = [
+    "reservoir-computing",
+    "calcium-oscillations",
+    "attention",
+    "biological-computation",
+    "neuroscience",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+    "matplotlib>=3.4.0",
+    "scikit-learn>=1.0.0",
+]
+
+[project.optional-dependencies]
+agsc = ["torch>=1.10.0"]
+all = ["torch>=1.10.0"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/corc"
+Repository = "https://github.com/yourusername/corc"
