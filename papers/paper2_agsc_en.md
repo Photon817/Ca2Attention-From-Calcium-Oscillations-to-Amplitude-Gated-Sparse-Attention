@@ -1,4 +1,5 @@
-# Signal Strength Modulates Influence: Amplitude-Gated Sparse Coupling as a Biological Distillation Mechanism
+# Signal Strength Modulates Its Influence: Amplitude-Gated Sparse Coupling as an O(Nd) Complexity Lightweight Attention Mechanism
+
 
 ## Abstract
 
